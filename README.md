@@ -125,47 +125,14 @@ Delete an update
 
 Yes
 
-Testimonial Routes
 
-Method
+| Method | Endpoint                        | Description              | Protected |
+| ------ | ------------------------------- | ------------------------ | --------- |
+| GET    | `/api/testimonials`             | Fetch all testimonials   | No        |
+| POST   | `/api/testimonials`             | Submit a new testimonial | No        |
+| PATCH  | `/api/testimonials/:id/approve` | Approve a testimonial    | Yes       |
+| DELETE | `/api/testimonials/:id`         | Delete a testimonial     | Yes       |
 
-Endpoint
-
-Description
-
-Protected
-
-GET
-
-/api/testimonials
-
-Fetch all testimonials
-
-No
-
-POST
-
-/api/testimonials
-
-Submit a new testimonial
-
-No
-
-PATCH
-
-/api/testimonials/:id/approve
-
-Approve a testimonial
-
-Yes
-
-DELETE
-
-/api/testimonials/:id
-
-Delete a testimonial
-
-Yes
 
 Running the Application
 
