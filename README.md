@@ -58,25 +58,9 @@ Ensure you have the following installed on your machine:
    npm run build
 
 5. **Project Structure:**
-Path	Description
-src/	Root directory for source code
-src/config/	Configuration files
-src/config/db.ts	MongoDB connection
-src/models/	Database schemas
-src/models/update.model.ts	Update schema
-src/models/testimonial.model.ts	Testimonial schema
-src/routes/	API routes
-src/routes/update.routes.ts	Routes for updates
-src/routes/testimonial.routes.ts	Routes for testimonials
-src/middlewares/	Middleware files
-src/middlewares/auth.middleware.ts	JWT authentication middleware
-src/controllers/	Route logic
-src/controllers/update.controller.ts	Logic for update routes
-src/controllers/testimonial.controller.ts	Logic for testimonial routes
-src/app.ts	App initialization
-src/server.ts	Server entry point
-.env.example	Environment variables template
+   ## Project Structure
 
+src/ ├── config/ │ └── db.ts # MongoDB connection ├── models/ │ ├── update.model.ts # Update schema │ └── testimonial.model.ts # Testimonial schema ├── routes/ │ ├── update.routes.ts # Routes for updates │ └── testimonial.routes.ts # Routes for testimonials ├── middlewares/ │ └── auth.middleware.ts # JWT authentication middleware ├── controllers/ │ ├── update.controller.ts # Logic for update routes │ └── testimonial.controller.ts # Logic for testimonial routes ├── app.ts # App initialization └── server.ts # Server entry point .env.example # Environment variables template
 
 6. **API Documentation:**
    **API Endpoints**
