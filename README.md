@@ -38,7 +38,7 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/lestersinjacreater/dynamic-website-backend-.gitl>
    cd dynamic-website-backend
 
 2. **Install Dependencies:**
@@ -86,14 +86,14 @@ src/ ├── config/ │ └── db.ts # MongoDB connection ├── models
 
 7. **Running the Application**
 
-     **Development Mode**
+    ***Development Mode***
 
     To run the project in development mode with nodemon, use:
         ```bash
             npm run dev
 
 
-     **Production Mode**
+    ***Production Mode***
 
     To run the project in production mode, use:
       ```bash
