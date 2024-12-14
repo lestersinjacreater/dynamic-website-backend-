@@ -87,12 +87,14 @@ src/ ├── config/ │ └── db.ts # MongoDB connection ├── models
 7. **Running the Application**
 
      **Development Mode**
-       To run the project in development mode with nodemon, use:
+
+    To run the project in development mode with nodemon, use:
          ```bash
              npm run dev
 
 
      **Production Mode**
+
     To run the project in production mode, use:
       ```bash
           npm start
