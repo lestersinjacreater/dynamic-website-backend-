@@ -122,20 +122,25 @@ Railway
 AWS
 
 **Ensure you**
+
 Set the environment variables on the platform.
 Update your MongoDB connection string to a cloud-hosted database like MongoDB Atlas.
 
 **Additional Notes**
+
 Always secure your JWT_SECRET and MONGO_URI using environment variables.
 Use HTTPS in production to secure API communications.
 
 **Contributing**
+
 Feel free to fork the repository and create a pull request with your enhancements or bug fixes.
 **License**
+
 This project is licensed under the MIT License.
 
 
 **Acknowledgements**
+
 Special thanks to the open-source community for the amazing tools and libraries used in this project.
 
 
