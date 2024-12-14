@@ -80,20 +80,24 @@ src/server.ts	Server entry point
 
 6. **API Documentation:**
    **API Endpoints**
-   Update Routes
 
-   Method	Endpoint	Description	Protected
-GET	/api/updates	Fetch all updates	No
-POST	/api/updates	Create a new update	Yes
-DELETE	/api/updates/:id	Delete an update	Yes
+## Update Routes
 
-Testimonial Routes
+| Method | Endpoint             | Description           | Protected |
+|--------|----------------------|-----------------------|-----------|
+| GET    | /api/updates          | Fetch all updates     | No        |
+| POST   | /api/updates          | Create a new update   | Yes       |
+| DELETE | /api/updates/:id      | Delete an update      | Yes       |
 
-Method	Endpoint	Description	Protected
-GET	/api/testimonials	Fetch all testimonials	No
-POST	/api/testimonials	Submit a new testimonial	No
-PATCH	/api/testimonials/:id/approve	Approve a testimonial	Yes
-DELETE	/api/testimonials/:id	Delete a testimonial	Yes
+## Testimonial Routes
+
+| Method | Endpoint                     | Description               | Protected |
+|--------|------------------------------|---------------------------|-----------|
+| GET    | /api/testimonials             | Fetch all testimonials    | No        |
+| POST   | /api/testimonials             | Submit a new testimonial  | No        |
+| PATCH  | /api/testimonials/:id/approve | Approve a testimonial      | Yes       |
+| DELETE | /api/testimonials/:id         | Delete a testimonial      | Yes       |
+
 
 
 7. **Running the Application**
