@@ -94,7 +94,7 @@ src/ ├── config/ │ └── db.ts # MongoDB connection ├── models
 
 
 
-    ***Production Mode***
+***Production Mode***
     To run the project in production mode, use:
     ```bash
     npm start
